@@ -40,4 +40,15 @@ clock = pygame.time.Clock()
 canvas = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption('Snake Game')
 
+#images for items
+snake_img = pygame.image.load('block.jpg')
+apple_img = pygame.image.load('apple.jpg')
+apple_img_rect = apple_img.get_rect()
+
+#music for background,crash and eat
+pygame.mixer.music.load('bg_music_1.mp3')
+
+pygame.mixer.music.play(1)
+
+
 
