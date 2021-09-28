@@ -28,7 +28,7 @@ mp= pygame.transform.scale(mp,(WINDOW_WIDTH,WINDOW_HEIGHT))
 bk = pygame.transform.scale(bk,(WINDOW_WIDTH,WINDOW_HEIGHT))
 
 
-VELOCITY = 10
+VELOCITY = 5
 SNAKE_WIDTH = 15
 APPLE_SIZE = 20
 TOP_WIDTH = 40
